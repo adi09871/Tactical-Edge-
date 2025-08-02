@@ -76,7 +76,7 @@ focusedBorderColor = Color.Gray,
             shape = RoundedCornerShape(8.dp)
         )
         Spacer(modifier = Modifier.height(16.dp))
-        Text(text = "Formation ",
+        Text(text = "Playstyle ",
             color = androidx.compose.ui.graphics.Color.White,
             fontSize = 16.sp, fontWeight =  FontWeight.Bold,
             modifier = Modifier.padding(bottom = 6.dp)
