@@ -98,6 +98,27 @@ focusedBorderColor = Color.Gray,
             shape = RoundedCornerShape(8.dp)
 
         )
+        Button(
+            onClick = {
+                FirebaseManager.saveOpponentTeam(
+                    teamName = teamName,
+                    formation = formation,
+                    playstyle = playstyle,
+                    onSuccess = {
+                        Toast.makeText(context, "Opponent team saved!", Toast.LENGTH_SHORT).show()
+                        navController.navigate("next_screen_name") // optional
+                    },
+                    onFailure = {
+                        Toast.makeText(context, "Failed to save: ${it.message}", Toast.LENGTH_SHORT).show()
+                    }
+                )
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 20.dp)
+        ) {
+            Text("Save Opponent Team")
+        }
     }
 
 }
