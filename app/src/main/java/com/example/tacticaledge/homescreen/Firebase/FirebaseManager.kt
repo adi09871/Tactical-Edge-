@@ -38,4 +38,25 @@ object FirebaseManager {
                 .addOnSuccessListener { onSuccess() }
                 .addOnFailureListener { onFailure(it) }
         }
+    fun saveOpponentTeam(
+        teamName: String,
+        formation: String,
+        playstyle: String,
+        onSuccess: () -> Unit,
+        onFailure: (Exception) -> Unit
+    ) {
+        val database = FirebaseDatabase.getInstance().reference
+        val teamId = database.child("opponent_teams").push().key ?: return
+
+        val team = mapOf(
+            "teamName" to teamName,
+            "formation" to formation,
+            "playstyle" to playstyle
+        )
+
+        database.child("opponent_teams").child(teamId).setValue(team)
+            .addOnSuccessListener { onSuccess() }
+            .addOnFailureListener { onFailure(it) }
+    }
+
     }
