@@ -35,6 +35,8 @@ class MainActivity : ComponentActivity() {
                     Myteam(navController = navController)
                 }
 
+                composable("opponentTeam")
+                { OpponentTeamScreen(navController = navController, context = this@MainActivity) }
         }
         }}}}
 
