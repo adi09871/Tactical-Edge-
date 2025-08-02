@@ -24,7 +24,11 @@ import com.example.tacticaledge.ui.theme.greenlight
 @OptIn(ExperimentalMaterial3Api::class)
 
 @Composable
-fun OpponentTeam(navController: NavController){
+fun OpponentTeamScreen(navController: NavController, context: Context){
+
+    var teamName by remember { mutableStateOf("") }
+    var formation by remember { mutableStateOf("") }
+    var playstyle by remember { mutableStateOf("") }
 
     Column (
         modifier = Modifier
