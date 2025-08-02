@@ -62,8 +62,8 @@ focusedBorderColor = Color.Gray,
 
 
         OutlinedTextField(
-            value = "",
-            onValueChange = {},
+            value = formation,
+            onValueChange = {formation = it},
             label = { Text(text = "Formation") },
             colors = OutlinedTextFieldDefaults.colors(
                 focusedBorderColor = Color.Gray,
