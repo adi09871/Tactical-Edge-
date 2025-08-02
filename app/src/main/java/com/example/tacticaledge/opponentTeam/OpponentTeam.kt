@@ -84,8 +84,8 @@ focusedBorderColor = Color.Gray,
 
 
         OutlinedTextField(
-            value = "",
-            onValueChange = {},
+            value = playstyle,
+            onValueChange = {playstyle = it},
             label = { Text(text = "Formation") },
             colors = OutlinedTextFieldDefaults.colors(
                 focusedBorderColor = Color.Gray,
