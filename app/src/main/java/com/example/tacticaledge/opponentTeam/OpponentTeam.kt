@@ -48,8 +48,8 @@ fun OpponentTeamScreen(navController: NavController, context: Context){
             )
 
         OutlinedTextField(
-            value = "",
-            onValueChange = {},
+            value = teamName,
+            onValueChange = {teamName = it},
 label = {Text(text = "Team Name ")},
             colors = OutlinedTextFieldDefaults.colors(
 focusedBorderColor = Color.Gray,
