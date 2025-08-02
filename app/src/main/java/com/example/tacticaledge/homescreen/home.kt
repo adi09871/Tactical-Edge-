@@ -63,5 +63,11 @@ fun HomeScreen(navcontroller: NavController)
 Button(onClick = { navcontroller.navigate("myteam") }) {
 Text(text = "add team details")
 
-        }}}}}
+        }
+            Button(
+                onClick = { navcontroller.navigate("opponentTeam") },
+                modifier = Modifier.padding(top = 16.dp)
+            ) {
+                Text(text = "Add Opponent Team")
+            }}}}}
 
