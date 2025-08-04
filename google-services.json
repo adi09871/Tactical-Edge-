@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "328524098819",
+    "firebase_url": "https://taticlal-edge-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "taticlal-edge",
+    "storage_bucket": "taticlal-edge.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328524098819:android:199c9ab9e5a71676024d36",
+        "android_client_info": {
+          "package_name": "com.example.tacticaledg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVCRFxNzO00Mu92M9898DVqmtgAHg1rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328524098819:android:87fde5dd7e8e6821024d36",
+        "android_client_info": {
+          "package_name": "com.example.tacticaledge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVCRFxNzO00Mu92M9898DVqmtgAHg1rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
