@@ -28,6 +28,9 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.tacticaledge.homescreen.Firebase.FirebaseManager
 
+import com.example.tacticaledge.models.OpponentTeam
+import com.example.tacticaledge.opponentTeam.OpponentTeamScreen
+
 import com.example.tacticaledge.ui.theme.greenlight
 
 
