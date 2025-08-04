@@ -68,9 +68,12 @@ dependencies {
 
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
     implementation("com.google.firebase:firebase-database-ktx")
+<<<<<<< HEAD
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
+=======
+>>>>>>> c27995bdfd2dedc6fea74a8493013d3c3cb295a2
 
 }
 

@@ -11,7 +11,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.tacticaledge.homescreen.HomeScreen
 import com.example.tacticaledge.myteamdetails.Myteam
+<<<<<<< HEAD
 import com.example.tacticaledge.opponentTeam.OpponentTeamScreen
+=======
+>>>>>>> c27995bdfd2dedc6fea74a8493013d3c3cb295a2
 import com.google.firebase.FirebaseApp
 
 

@@ -1,6 +1,9 @@
 package com.example.tacticaledge.opponentTeam
+<<<<<<< HEAD
 import android.content.Context
 import android.widget.Toast
+=======
+>>>>>>> c27995bdfd2dedc6fea74a8493013d3c3cb295a2
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -9,7 +12,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
+<<<<<<< HEAD
 import androidx.compose.material3.Button
+=======
+>>>>>>> c27995bdfd2dedc6fea74a8493013d3c3cb295a2
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults

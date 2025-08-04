@@ -1,6 +1,9 @@
 package com.example.tacticaledge.myteamdetails
 
+<<<<<<< HEAD
 import android.util.Log
+=======
+>>>>>>> c27995bdfd2dedc6fea74a8493013d3c3cb295a2
 import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -186,6 +189,7 @@ fun Myteam(navController: NavController) {
             }) {
                 Text("Save Team")
             }
+<<<<<<< HEAD
             FirebaseManager.fetchTeamsForPrediction(
                 onSuccess = { myTeam, opponentTeam ->
                     Log.d("Prediction", "My Team: $myTeam")
@@ -198,5 +202,7 @@ fun Myteam(navController: NavController) {
                 }
             )
 
+=======
+>>>>>>> c27995bdfd2dedc6fea74a8493013d3c3cb295a2
         }}}
 
